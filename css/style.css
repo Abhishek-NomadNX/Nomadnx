@@ -1,10 +1,14 @@
 /********** Template CSS **********/
 :root {
-    --primary: #355EFC;
-    --secondary: #E93C05;
+
     --tertiary: #555555;
-    --light: #DFE4FD;
-    --dark: #011A41;
+    --primary: #FFC300;
+    --secondary: #fff5d5;
+    --light: #F7FAFF;
+    --dark: #19191a;
+
+    --start: #ffcc24;
+    --end: #FFC300;
 }
 
 .back-to-top {
@@ -99,7 +103,7 @@ h6,
 
 .top-bar {
     height: 45px;
-    border-bottom: 1px solid rgba(53, 94, 252, .07);
+    border-bottom: 1px solid rgba(255, 248, 148, 0.11);
 }
 
 .navbar .dropdown-toggle::after {
@@ -182,11 +186,11 @@ h6,
 }
 
 .carousel-control-prev-icon {
-    border-radius: 0 3rem 3rem 0;
+    border-radius: 3rem;
 }
 
 .carousel-control-next-icon {
-    border-radius: 3rem 0 0 3rem;
+    border-radius: 3rem;
 }
 
 @media (max-width: 768px) {
@@ -194,7 +198,7 @@ h6,
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -222,7 +226,7 @@ h6,
 
 /*** Facts ***/
 .facts {
-    background: linear-gradient(rgba(53, 94, 252, .95), rgba(53, 94, 252, .95)), url(../img/bg.png);
+    background: linear-gradient(var(--start), var(--end)), url(../img/bg.png);
 }
 
 
@@ -238,7 +242,7 @@ h6,
     height: 50%;
     top: 0;
     left: 0;
-    background: linear-gradient(rgba(53, 94, 252, .95), rgba(53, 94, 252, .95)), url(../img/bg.png);
+    background: linear-gradient(var(--start), var(--end)), url(../img/bg.png);
     z-index: -1;
 }
 

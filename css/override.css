@@ -1,0 +1,24 @@
+/********** Template CSS **********/
+:root {
+
+    --tertiary: #555555;
+    --primary: #FFC300;
+    --secondary: #fff5d5;
+    --light: #F7FAFF;
+    --dark: #19191a;
+
+    --start: #ffcc24;
+    --end: #FFC300;
+}
+
+.text-light {
+    color: var(--light) !important;
+}
+
+.carousel-heading {
+    font-size: 80px;
+}
+
+.carousel-description {
+    font-size: 14px;
+}
