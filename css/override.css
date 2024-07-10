@@ -22,3 +22,8 @@
 .carousel-description {
     font-size: 14px;
 }
+
+.navlink-custom {
+    color: black !important;
+    font-weight: 500 !important;
+}

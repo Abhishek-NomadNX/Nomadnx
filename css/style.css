@@ -117,7 +117,7 @@ h6,
 
 .navbar .navbar-nav .nav-link {
     padding: 25px 15px;
-    color: var(--tertiary);
+    color: var(--light);
     font-weight: 500;
     outline: none;
 }
