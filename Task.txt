@@ -1,0 +1,23 @@
+Team Card Format
+> Name
+> Designation/Team
+> Expirence/Expertise
+> Social Links
+
+
+
+Website works
+> Team
+> Projects
+> Form Popup 
+> Hyperlinking
+> Forms
+> Responsive
+> Credits
+> Credits removal
+> CSS optimisation
+> Testing
+> Copyright check
+> Git repository
+> Hosting
+> Domain linking
