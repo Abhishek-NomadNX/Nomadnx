@@ -364,59 +364,6 @@ h6,
 
 
 /*** Team ***/
-.team-item {
-    position: relative;
-    padding: 4rem 0;
-}
-
-.team-item img {
-    position: relative;
-    z-index: 2;
-}
-
-.team-item .team-text {
-    position: absolute;
-    top: 0;
-    right: 3rem;
-    bottom: 0;
-    left: 3rem;
-    padding: 15px;
-    border: 1px solid var(--light);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    transition: .5s;
-    z-index: 1;
-}
-
-.team-item:hover .team-text {
-    background: var(--primary);
-    border-color: var(--primary);
-}
-
-.team-item .team-text h4 {
-    transition: .5s;
-}
-
-.team-item:hover .team-text h4 {
-    color: #FFFFFF;
-}
-
-.team-item .team-social .btn {
-    background: var(--light);
-    color: var(--primary);
-}
-
-.team-item:hover .team-social .btn {
-    background: #FFFFFF;
-}
-
-.team-item .team-social .btn:hover {
-    background: var(--primary);
-    color: var(--light);
-}
 
 
 /*** Testimonial ***/

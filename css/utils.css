@@ -1,0 +1,55 @@
+.team-card {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, .05);
+    border-radius: 10px;
+}
+
+.team-background {
+    background-color: var(--primary);
+    height: 120px;
+    width: 100%;
+    margin-bottom: -100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.team-picture-cont {
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    border-radius: 1000px;
+    width: max-content;
+    margin: auto;
+}
+
+.team-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+    background-color: var(--primary);
+    background-size: cover;
+    background-position: center;
+}
+
+.team-detail-cont {
+    background-color: white;
+
+}
+
+.team-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.team-designation {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.team-expirence {
+    margin-top: 10px;
+    font-size: 14px;
+}
