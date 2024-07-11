@@ -271,3 +271,13 @@ Facts Style
     font-weight: 500;
     margin-top: 15px;
 }
+
+/* 
+footer */
+
+.bg-map {
+    background: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

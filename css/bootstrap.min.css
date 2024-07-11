@@ -8364,6 +8364,10 @@ fieldset:disabled .btn {
     color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
 .text-reset {
     color: inherit !important;
 }
