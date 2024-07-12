@@ -367,45 +367,6 @@ h6,
 
 
 /*** Testimonial ***/
-.testimonial-item {
-    position: relative;
-    text-align: center;
-    padding-top: 30px;
-}
-
-.testimonial-item .testimonial-text {
-    position: relative;
-    text-align: center;
-}
-
-.testimonial-item .testimonial-text .btn-square {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.testimonial-item .testimonial-text::before {
-    position: absolute;
-    content: "";
-    bottom: -60px;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 30px solid;
-    border-color: var(--light) transparent transparent transparent;
-}
-
-.testimonial-item .testimonial-text::after {
-    position: absolute;
-    content: "";
-    bottom: -59px;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 30px solid;
-    border-color: #FFFFFF transparent transparent transparent;
-}
 
 .testimonial-carousel .owl-item img {
     margin: 0 auto;
