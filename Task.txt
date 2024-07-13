@@ -7,9 +7,6 @@ Team Card Format
 
 
 Website works
-> Projects
-> Testimonials
-> scrollbar
 > Form Popup 
 > Hyperlinking
 > Forms
