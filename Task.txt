@@ -8,7 +8,6 @@ Team Card Format
 
 Website works
 > Form Popup 
-> Hyperlinking
 > Forms
 > Responsive
 > Content review
