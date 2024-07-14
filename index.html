@@ -148,8 +148,9 @@
                                         and DPIIT registration assistance. Partner with us to gain the insights, tools,
                                         and
                                         resources needed to turn your startup into a thriving business.</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown mt-4">Explore
-                                        More</a>
+                                    <button class="btn btn-primary py-3 px-5 animated slideInDown mt-4"
+                                        onclick="document.getElementById('id-quotation').style.display='block'">Get
+                                        Quotation</button>
                                 </div>
                             </div>
                         </div>
@@ -171,8 +172,9 @@
                                         expert team designs stunning websites, develops efficient web applications, and
                                         creates customized software solutions. Partner with us to unlock your business's
                                         full online potential.</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown mt-4">Explore
-                                        More</a>
+                                    <button class="btn btn-primary py-3 px-5 animated slideInDown mt-4"
+                                        onclick="document.getElementById('id-quotation').style.display='block'">Get
+                                        Quotation</button>
                                 </div>
                             </div>
                         </div>
@@ -197,8 +199,9 @@
                                         and creates engaging content. Partner with us to elevate your brand’s identity
                                         and
                                         connect with your audience effectively.</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown mt-4">Explore
-                                        More</a>
+                                    <button class="btn btn-primary py-3 px-5 animated slideInDown mt-4"
+                                        onclick="document.getElementById('id-quotation').style.display='block'">Get
+                                        Quotation</button>
                                 </div>
                             </div>
                         </div>
@@ -217,30 +220,74 @@
     </div>
     <!-- Carousel End -->
 
-    <div class="w3-container">
-        <h2>W3.CSS Animated Modal</h2>
-        <p>Zoom in the modal with the w3-animate-zoom class, or slide in the modal from a specific direction using the
-            w3-animate-top, w3-animate-bottom, w3-animate-left or w3-animate-right class:</p>
-        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Animated
-            Modal</button>
 
-        <div id="id01" class="w3-modal">
-            <div class="w3-modal-content w3-animate-top w3-card-4">
-                <header class="w3-container w3-teal">
-                    <span onclick="document.getElementById('id01').style.display='none'"
-                        class="w3-button w3-display-topright">&times;</span>
-                    <h2>Modal Header</h2>
-                </header>
-                <div class="w3-container">
-                    <p>Some text..</p>
-                    <p>Some text..</p>
+
+    <!-- Popups Start -->
+
+    <!-- Get Quotation -->
+    <div id="id-quotation" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4" style="border-radius: 10px;">
+            <div class="quot-cont">
+                <div class="quot-header">
+                    <div class="quot-heading">Get Quotation</div>
+                    <div class="quot-description">Fill the form below to get quotation</div>
                 </div>
-                <footer class="w3-container w3-teal">
-                    <p>Modal Footer</p>
-                </footer>
+                <form>
+                    <div class="quot-form">
+                        <div class="row g-3 p-4">
+                            <div class="col-sm-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Company Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Contact Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                    <label for="mail">Contact Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                    <label for="mobile">Contact Mobile</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <select class="form-select py-3" aria-label="Default select example" id="subject"
+                                    style="border-color: #bbbbbb;">
+                                    <option value="Not Selected" selected>Select Service</option>
+                                    <option value="Customised Software Solution">Customised Software Solution
+                                    </option>
+                                    <option value="Brand Management">Brand Management</option>
+                                    <option value="Startup Support">Startup Support</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div style="margin-left: auto;">
+                                <button class="btn btn-primary  py-3" type="submit">Get Quotation</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+    <!-- Popup Ends -->
+
 
 
     <!-- Services Start -->
@@ -970,7 +1017,7 @@
 
     <script>
         // Get the modal
-        var modal = document.getElementById('id01');
+        var modal = document.getElementById('id-quotation');
 
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function (event) {

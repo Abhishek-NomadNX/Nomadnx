@@ -17,6 +17,7 @@
     --bs-cyan: #0dcaf0;
     --bs-white: #fff;
     --bs-gray: #6c757d;
+    --bs-light-gray: #bbbbbb;
     --bs-gray-dark: #343a40;
     --bs-primary: var(--bs-yellow);
     --bs-primary-dark: var(--bs-orange);
@@ -2243,7 +2244,7 @@ progress {
     color: #555;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid var(--bs-light);
+    border: 1px solid var(--bs-light-gray);
     appearance: none;
     border-radius: 8px;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;

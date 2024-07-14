@@ -130,3 +130,29 @@
     margin-top: 20px;
     text-align: right;
 }
+
+
+
+/* 
+Get quotation */
+
+.quot-cont {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.quot-header {
+    background-color: var(--primary);
+    padding: 20px 32px;
+    border-radius: 10px 10px 0px 0px;
+    color: var(--dark);
+}
+
+.quot-heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.quot-form {
+    /* padding: 20px; */
+}
