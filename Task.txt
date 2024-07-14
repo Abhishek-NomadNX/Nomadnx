@@ -7,13 +7,14 @@ Team Card Format
 
 
 Website works
-> Form Popup 
-> Forms
+> Content
 > Responsive
-> Content review
 > Credits
 > Credits removal
 > CSS optimisation
+> Forms linking
+
+> Content review
 > Testing
 > Copyright check
 > Git repository
