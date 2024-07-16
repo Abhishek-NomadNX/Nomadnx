@@ -19,11 +19,8 @@
     // Fixed Navbar
     $(window).scroll(function () {
         if ($(window).width() < 992) {
-            if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-primary shadow');
-            } else {
-                $('.fixed-top').removeClass('bg-primary shadow');
-            }
+            $('.fixed-top').addClass('bg-primary shadow');
+            $('.nav-link').addClass('navlink-custom')
         } else {
             if ($(this).scrollTop() > 45) {
                 $('.fixed-top').addClass('bg-primary shadow').css('top', -45);
