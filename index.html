@@ -84,7 +84,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-                <h1 class="display-5 text-white m-0">NoMadNX</h1>
+                <h1 class="display-5 text-white m-0">NomadNX</h1>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
@@ -232,36 +232,42 @@
                     <div class="quot-heading">Get Quotation</div>
                     <div class="quot-description">Fill the form below to get quotation</div>
                 </div>
-                <form>
+                <form action="https://api.web3forms.com/submit" method="POST">
                     <div class="quot-form">
+                        <input type="hidden" name="access_key" value="63f4fa27-43cc-49af-b082-0810a763797c">
+                        <input type="hidden" name="subject" value="Get Quotation">
                         <div class="row g-3 p-4">
                             <div class="col-sm-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Company Name</label>
+                                    <input type="text" class="form-control" id="company" placeholder="Company Name"
+                                        name="company">
+                                    <label for="company">Company Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                        name="name">
                                     <label for="name">Contact Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="mail" placeholder="Your Email"
+                                        name="email">
                                     <label for="mail">Contact Email</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile"
+                                        name="mobile">
                                     <label for="mobile">Contact Mobile</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <select class="form-select py-3" aria-label="Default select example" id="subject"
-                                    style="border-color: #bbbbbb;">
+                                    name="service" style="border-color: #bbbbbb;">
                                     <option value="Not Selected" selected>Select Service</option>
                                     <option value="Customised Software Solution">Customised Software Solution
                                     </option>
@@ -273,8 +279,8 @@
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                        style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
+                                        name="message" style="height: 100px"></textarea>
+                                    <label for="message">Detiled Requirements</label>
                                 </div>
                             </div>
                             <div style="margin-left: auto;">
@@ -286,6 +292,8 @@
             </div>
         </div>
     </div>
+
+
     <!-- Popup Ends -->
 
 
@@ -741,7 +749,7 @@
                                 <p class="m-0 testimonial-name">Mr. Abhinav Kumar</p>
                                 <p class="m-0 testimonial-company">AB Traders</p>
                                 <div class="align-right">
-                                    <a class="testimonial-link" onclick="">Read More</a>
+                                    <a class="testimonial-link" href="">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -869,46 +877,53 @@
                             </p>
                             <h1 class="display-5 mb-5">Request A Call-Back</h1>
                         </div>
-                        <div class="row g-3">
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="63f4fa27-43cc-49af-b082-0810a763797c">
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                            name="name">
+                                        <label for="name">Your Name</label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
-                                    <label for="mail">Your Email</label>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="mail" placeholder="Your Email"
+                                            name="email">
+                                        <label for="mail">Your Email</label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
-                                    <label for="mobile">Your Mobile</label>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="mobile" placeholder="Your Mobile"
+                                            name="mobile">
+                                        <label for="mobile">Your Mobile</label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                            name="subject">
+                                        <label for="subject">Subject</label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                        style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                            name="message" style="height: 100px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12 text-center">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
-                            </div>
-                        </div>
+                                <div class="col-12 text-center">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                                </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Callback End -->
 
@@ -953,10 +968,15 @@
                     <h4 class="text-white mb-4">Get Callback</h4>
                     <p>Feel free to drop your number below, our team will get in touch with you ASAP </p>
                     <div class="position-relative w-100">
-                        <input class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5" type="number"
-                            placeholder="Your number">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Get
-                            Callback</button>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="63f4fa27-43cc-49af-b082-0810a763797c">
+                            <input type="hidden" name="subject" value="Callback Requested">
+                            <input class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5" type="number"
+                                name="number" placeholder="Your number">
+                            <button class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2" type="submit">
+                                Get Callback</button>
+                        </form>
+
                     </div>
                 </div>
             </div>
@@ -970,11 +990,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="text-dark text-bold" href="#">NoMadNX</a>, All Right Reserved.
+                    &copy; <a class="text-dark text-bold" href="#">NomadNX</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a class="text-dark text-bold" href="#">Tech Team </a> @NoMadNX
+                    Designed By <a class="text-dark text-bold" href="#">Tech Team </a> @NomadNX
                 </div>
             </div>
         </div>
@@ -1002,11 +1022,14 @@
     <script>
         // Get the modal
         var modal = document.getElementById('id-quotation');
-
+        var testimonialModal = document.getElementById('id-testimonial');
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function (event) {
             if (event.target == modal) {
                 modal.style.display = "none";
+            }
+            if (event.target == testimonialModal) {
+                testimonialModal.style.display = "none";
             }
         }
     </script>
