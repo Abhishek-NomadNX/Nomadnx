@@ -8,16 +8,19 @@ Team Card Format
 
 Website works
 
-> Responsive
+> Forms linking
 > Credits
 > Credits removal
 > CSS optimisation
-> Forms linking
+
 
 > Content
 > Content review
+
 > Testing
 > Copyright check
 > Git repository
 > Hosting
 > Domain linking
+
+> Testimonial read more
