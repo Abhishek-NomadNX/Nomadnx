@@ -322,4 +322,14 @@ footer */
     .carousel-heading {}
 
 
+
+
+}
+
+@media (max-width: 992px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        display: none;
+    }
 }
