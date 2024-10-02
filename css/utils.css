@@ -183,7 +183,7 @@ Get quotation */
 .marquee-content {
     display: flex;
     align-items: center;
-    animation: marquee-animation 20s linear infinite;
+    animation: marquee-animation 10s linear infinite;
 }
 
 
