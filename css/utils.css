@@ -169,3 +169,38 @@ Get quotation */
 
 
 .testi-cont {}
+
+
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.marquee-content {
+    display: flex;
+    align-items: center;
+    animation: marquee-animation 20s linear infinite;
+}
+
+
+
+@keyframes marquee-animation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+.clients-img {
+    margin: 20px;
+    height: 100%;
+    width: 100px;
+}
